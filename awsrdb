@@ -1,6 +1,0 @@
-
-
-redis:
-  Name: multi-docker-redis  
-  postgres
-  
