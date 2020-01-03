@@ -1,6 +1,6 @@
 docker build -t tmcmilla/multi-client:latest -t tmcmilla/multi-client:$SHA -f ./client/Dockerfile ./client
 docker build -t tmcmilla/multi-server:latest -t tmcmilla/multi-server:$SHA -f ./server/Dockerfile ./server
-docker bulld -t tmcmilla/multi-worker:latest -t tmcmilla/multi-worker:$SHA -f ./worker/Dockerfile ./worker
+docker build -t tmcmilla/multi-worker:latest -t tmcmilla/multi-worker:$SHA -f ./worker/Dockerfile ./worker
 docker push tmcmilla/multi-client:latest
 docker push tmcmilla/multi-server:latest
 docker push tmcmilla/multi-worker:latest
